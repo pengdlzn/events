@@ -1,0 +1,111 @@
+/* reset.css 
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+body {line-height:1.5;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+*/
+
+/* minimal.css */
+.breadcrumbs {
+  text-align: center;
+  width: 100%;
+  padding: 5px 0;
+  margin: 0;
+  font-style: italic;
+  border-bottom: solid #eee 1px;
+  color: #000;
+}
+
+.breadcrumbs a {
+  color: #669;
+}
+
+.breadcrumbs a:hover {
+  color: #000;
+}
+
+p.cite {
+  text-align: right;
+  font-style: italic;
+}
+
+p.cite, p.cite a, p.caption, p.caption a {
+  color: #666;
+}
+
+p.caption {
+  text-align: center;
+  font-style: italic;
+  width: 400px;
+  margin: 0 auto;
+}
+
+body {
+  margin-top: 0;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  background: #fff;
+}
+
+p, li {
+  line-height: 1.5em;
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 2.0em;
+}
+
+canvas {
+  cursor: move;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 1em auto;
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.thumb {
+  width: 200px;
+  height: 220px;
+  text-align: center;
+  float: left;
+}
+
+.thumb img {
+  width: 200px;
+  height: 174px;
+  border: none;
+}
+
+.clear {
+  clear: both;
+}
+
+blockquote {
+  border-left: solid #eee 5px;
+  padding: 0 15px;
+  margin: 0;
+}
+
+dt {
+    font-weight: bold;
+}
+
+/*
+body {
+    background:url(/media/img/bg.gif) repeat;
+};
+*/
